@@ -11,6 +11,13 @@
 		8076E6A3268D0FF00023F698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6A2268D0FF00023F698 /* ContentView.swift */; };
 		8076E6A5268D0FF10023F698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8076E6A4268D0FF10023F698 /* Assets.xcassets */; };
 		8076E6A8268D0FF10023F698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8076E6A7268D0FF10023F698 /* Preview Assets.xcassets */; };
+		8076E6B0268D127C0023F698 /* 2.CustomizingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6AF268D127C0023F698 /* 2.CustomizingAnimation.swift */; };
+		8076E6B3268D13210023F698 /* 1.AnimatingBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6B2268D13210023F698 /* 1.AnimatingBinding.swift */; };
+		8076E6B5268D15B30023F698 /* 3.CreatingExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6B4268D15B30023F698 /* 3.CreatingExplicitAnimation.swift */; };
+		8076E6B7268D18200023F698 /* 4.ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6B6268D18200023F698 /* 4.ControllingAnimationStack.swift */; };
+		8076E6B9268D1C7F0023F698 /* 5.AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6B8268D1C7F0023F698 /* 5.AnimatingGestures.swift */; };
+		8076E6BB268D214D0023F698 /* 6.Showing&HidingViewsWithTranslations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6BA268D214D0023F698 /* 6.Showing&HidingViewsWithTranslations.swift */; };
+		8076E6BD268D25750023F698 /* 7.CustomTransitionsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076E6BC268D25750023F698 /* 7.CustomTransitionsModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		8076E6A4268D0FF10023F698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8076E6A7268D0FF10023F698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8076E6A9268D0FF10023F698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8076E6AF268D127C0023F698 /* 2.CustomizingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2.CustomizingAnimation.swift; sourceTree = "<group>"; };
+		8076E6B2268D13210023F698 /* 1.AnimatingBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1.AnimatingBinding.swift; sourceTree = "<group>"; };
+		8076E6B4268D15B30023F698 /* 3.CreatingExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3.CreatingExplicitAnimation.swift; sourceTree = "<group>"; };
+		8076E6B6268D18200023F698 /* 4.ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4.ControllingAnimationStack.swift; sourceTree = "<group>"; };
+		8076E6B8268D1C7F0023F698 /* 5.AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5.AnimatingGestures.swift; sourceTree = "<group>"; };
+		8076E6BA268D214D0023F698 /* 6.Showing&HidingViewsWithTranslations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6.Showing&HidingViewsWithTranslations.swift"; sourceTree = "<group>"; };
+		8076E6BC268D25750023F698 /* 7.CustomTransitionsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 7.CustomTransitionsModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 		8076E69F268D0FF00023F698 /* AnimationsProject */ = {
 			isa = PBXGroup;
 			children = (
+				8076E6B1268D13080023F698 /* ProjectContent */,
 				8076E6A0268D0FF00023F698 /* AnimationsProjectApp.swift */,
 				8076E6A2268D0FF00023F698 /* ContentView.swift */,
 				8076E6A4268D0FF10023F698 /* Assets.xcassets */,
@@ -67,6 +82,20 @@
 				8076E6A7268D0FF10023F698 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8076E6B1268D13080023F698 /* ProjectContent */ = {
+			isa = PBXGroup;
+			children = (
+				8076E6B2268D13210023F698 /* 1.AnimatingBinding.swift */,
+				8076E6AF268D127C0023F698 /* 2.CustomizingAnimation.swift */,
+				8076E6B4268D15B30023F698 /* 3.CreatingExplicitAnimation.swift */,
+				8076E6B6268D18200023F698 /* 4.ControllingAnimationStack.swift */,
+				8076E6B8268D1C7F0023F698 /* 5.AnimatingGestures.swift */,
+				8076E6BA268D214D0023F698 /* 6.Showing&HidingViewsWithTranslations.swift */,
+				8076E6BC268D25750023F698 /* 7.CustomTransitionsModifier.swift */,
+			);
+			path = ProjectContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8076E6BB268D214D0023F698 /* 6.Showing&HidingViewsWithTranslations.swift in Sources */,
+				8076E6B3268D13210023F698 /* 1.AnimatingBinding.swift in Sources */,
+				8076E6B0268D127C0023F698 /* 2.CustomizingAnimation.swift in Sources */,
+				8076E6B9268D1C7F0023F698 /* 5.AnimatingGestures.swift in Sources */,
 				8076E6A3268D0FF00023F698 /* ContentView.swift in Sources */,
 				8076E6A1268D0FF00023F698 /* AnimationsProjectApp.swift in Sources */,
+				8076E6BD268D25750023F698 /* 7.CustomTransitionsModifier.swift in Sources */,
+				8076E6B5268D15B30023F698 /* 3.CreatingExplicitAnimation.swift in Sources */,
+				8076E6B7268D18200023F698 /* 4.ControllingAnimationStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

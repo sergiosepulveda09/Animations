@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        AnimatingBinding()
+        CustomizingAnimation()
+        CreatingExplicitAnimation()
+        ControllingAnimationStack()
+        VStack{
+            AnimatingGestures()
+            AnimatingGestures2()
+        }
+        Showing_HidingViewsWithTranslations()
+        
+            
     }
 }
 
